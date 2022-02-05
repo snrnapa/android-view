@@ -1,6 +1,6 @@
 import os
 
-path = "./DP14"
+path = "DP14"
 files = os.listdir(path)
 
 
