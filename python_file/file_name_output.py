@@ -6,10 +6,11 @@ files = os.listdir(path)
 
 new_files = []
 for title in files:
-    new_files.append('data.add("' + (title) + '");')
+    new_files.append('"' + (title.replace(".html","")) + '",')
 
 for new_title in new_files:
     print(new_title)
+
 
 
 
